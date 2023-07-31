@@ -33,7 +33,11 @@ Make sure you have git already installed in your device
     ```
 
 ### Installing Dependencies in linux os and choose you python version eg: 3.9
-
+If pipenv is not yet installed 
+>
+    ```bash
+    $ pip install pipenv
+    ```
 >   
     ```bash
     $ make setup version=3.9
