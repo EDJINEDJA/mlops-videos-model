@@ -1,0 +1,27 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "*"
+mlflow = "==2.2.2"
+notebook = "*"
+numpy = "*"
+scikit-learn = "*"
+matplotlib = "*"
+python-box = "==6.0.2"
+pyyaml = "*"
+tqdm = "*"
+ensure = "==1.0.2"
+joblib = "*"
+types-pyyaml = "*"
+flask = "*"
+flask-cors = "*"
+mlproject = {editable = true, file = "file:///home/lnit/Bureau/mlops"}
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
+python_full_version = "3.9.13"
