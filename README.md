@@ -18,7 +18,32 @@
 
 <!--ts-->
 * [Aims and Objectives](#Aims-and-Objectives)
+* [Usage](#Usage)
 <!--te-->
 
 ## Aims and Objectives
+If you're looking to start a CI/CD (Continuous Integration/Continuous Deployment) project with MLflow, this MLflow folder template is just what you need.
+
+## Usage 
+Make sure you have git already installed in your device
+
+```bash
+$ git clone https://github.com/EDJINEDJA/mlops
+```
+
+Installing Dependencies in linux os and choose you python version eg: 3.9
+
+```bash
+$ make setup version=3.9
+```
+
+Install Dependencies in windows os
+
+First create you own virtualenv using any virtualenv tools that you want
+
+```bash
+$ pip install -r requirements.txt
+```
+
+There we go !
 
