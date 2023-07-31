@@ -10,7 +10,8 @@ PROJECT_NAME = "mlProject"
 
 LIST_OF_FILE = [
     ".github/workflows/.gitkeep",
-    "env/.env" "docs/doc.md",
+    "env/.env",
+    "docs/doc.md",
     f"src/{PROJECT_NAME}/__init__.py",
     f"src/{PROJECT_NAME}/components/__init__.py",
     f"src/{PROJECT_NAME}/utils/__init__.py",

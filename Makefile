@@ -12,4 +12,7 @@ install:
 activate:
 	@echo "virtualenv activate ..."
 	pipenv shell
+run:
+	@echo "run template.py file for create new folder or file"
+	python template.py
 setup: initialize install
