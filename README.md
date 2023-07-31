@@ -32,7 +32,7 @@ Make sure you have git already installed in your device
     $ git clone https://github.com/EDJINEDJA/mlops
     ```
 
-Installing Dependencies in linux os and choose you python version eg: 3.9
+### Installing Dependencies in linux os and choose you python version eg: 3.9
 
 >   
     ```bash
@@ -44,7 +44,7 @@ Activte you virtualenv
     ```bash
     $ make activate
     ```
-Install Dependencies in windows os
+### Install Dependencies in windows os
 
 > First create you own virtualenv using any virtualenv tools that you want
 
