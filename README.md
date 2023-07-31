@@ -27,23 +27,28 @@ If you're looking to start a CI/CD (Continuous Integration/Continuous Deployment
 ## Usage 
 Make sure you have git already installed in your device
 
-```bash
-$ git clone https://github.com/EDJINEDJA/mlops
-```
+>
+    ```bash
+    $ git clone https://github.com/EDJINEDJA/mlops
+    ```
 
 Installing Dependencies in linux os and choose you python version eg: 3.9
 
-```bash
-$ make setup version=3.9
-```
+>   
+    ```bash
+    $ make setup version=3.9
+    ```
 
+Activte you virtualenv 
+>   
+    ```bash
+    $ make activate
+    ```
 Install Dependencies in windows os
 
-First create you own virtualenv using any virtualenv tools that you want
+> First create you own virtualenv using any virtualenv tools that you want
 
-```bash
-$ pip install -r requirements.txt
-```
-
+    ```bash
+    $ pip install -r requirements.txt
+    ```
 There we go !
-
