@@ -1,5 +1,6 @@
 FROM python:3.9
 ENV PROJECT_DIR /usr/local/bin/src/app
+RUN apt update -y && apt install awscli -y
 RUN pip install pipenv
 WORKDIR ${PROJECT_DIR}
 COPY . ${PROJECT_DIR}
